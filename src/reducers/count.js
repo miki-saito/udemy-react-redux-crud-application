@@ -2,7 +2,7 @@ import { INCREMENT, DECREMENT } from '../actions'
 
 const initialState = { value: 0 }
 
-export decault (state = initialState, action) => {
+export default (state = initialState, action) => {
     switch (action.tupe) {
         case INCREMENT:
             return { value: state.value + 1 }
